@@ -1,0 +1,44 @@
+footer{
+    padding:0px 0 50px;
+    @media @s_mobile{
+        padding: 0px 0 25px;
+    }
+    .main-nav__row{
+        padding:10px 0;
+        border-top: 1px solid #dcdcdc;
+        border-bottom: 1px solid #dcdcdc;
+        text-align: center;
+    }
+    .copyright_row{
+        display: block;
+        margin: 30px 0 50px;
+        @media @s_mobile{
+            margin: 30px 0 30px;
+            padding: 0 15px;
+        }
+        p{
+            font-size: @secondary_font-size;
+            text-align: center;
+            color: @black;
+            letter-spacing: 1px;
+        }
+    }
+    .footer-social_icons{
+        display: block;
+        ul{
+            display: inline-block;
+            .width;
+            text-align: center;
+            li{
+                display: inline-block;
+                margin: 0 10px;
+                a{
+                    color: @black;
+                    svg{
+                        .height(20px);
+                    }
+                }
+            }
+        }
+    }
+}
